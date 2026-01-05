@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<link rel="stylesheet" href="estilos.css">
+
+<html lang="es">
+<div id="inicio">
+    <h2>El Cine Mexicano</h2>
+    <p>Descubre el impacto cultural y social del cine mexicano, un arte lleno de historia y emociones.</p>
+    <button id="leer-mas" onclick="window.scrollTo(0, document.body.scrollHeight)">Enviar opinión</button>
+</div>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>El Cine Mexican</title>
+</head>
+<body>
+    <header>
+        <h1>El Cine Mexicano y su Impacto</h1>
+        <p>Análisis al Cine Mexicano.  / Página creada por Rodrigo Lara</p>
+        <p class="btn-group">
+            <a href="#premios" class="small-btn">Premios del cine mexicano</a>
+            <a href="#recomendadas" class="small-btn">Ver películas recomendadas</a>
+            <a href="#cinematografia" class="small-btn">La cinematografía</a>
+        </p>
+    </header>
+
+    <section>
+                <a id="similares"></a>
+        <h2>Películas Famosas</h2>
+         <p>Aquí podrás encontrar películas famosas también del cine mexicano, que te podrían gustar.</p>
+        <ol>
+            <li>Y tu mamá también (2001)</li>
+            <p>Una película de road-trip dirigida por Alfonso Cuarón que aborda la amistad, la sexualidad y la vida en México.</p>
+
+            <li>El Infierno (2010)</li>
+            <p>Una crítica al narcotráfico en México, dirigida por Luis Estrada.</p>
+
+
+            <li>La región salvaje (2016)</li>
+            <p>Ciencia ficción y drama en un relato que mezcla el erotismo con lo extraterrestre, dirigida por Amat Escalante.</p>
+
+            <li>Los olvidados (1950)</li>
+            <p>Un clásico de Luis Buñuel, que retrata la vida de los jóvenes marginados en la Ciudad de México.</p>
+
+
+        </ol>
+    </section>
+
+
+        <!-- id para navegación rápida -->
+
+    <section>
+                <a id="tabla"></a>
+        <h2>Tabla de Películas</h2>
+        <table border="1">
+            <tr>
+                <th>Película</th>
+                <th>Director</th>
+                <th>Año</th>
+            </tr>
+            <tr>
+                <td>Güeros</td>
+                <td>Alonso Ruizpalacios</td>
+                <td>2014</td>
+            </tr>
+            <tr>
+                <td>Temporada de Patos</td>
+                <td>Fernando Eimbcke</td>
+                <td>2004</td>
+            </tr>
+            <tr>
+                <td>Amores Perros</td>
+                <td>Alejandro González Iñárritu</td>
+                <td>2000</td>
+            </tr>
+            </tr>
+        </table>
+    </section>
+
+
+    <!-- Carrusel de recomendaciones -->
+    <!-- Opciones disponibles: autoplay, indicadores numerados o miniaturas. Puedo activarlas si quieres. -->
+    <section id="recomendadas" aria-label="Películas recomendadas">
+        <h2>Algunas películas recomendadas</h2>
+
+        <div class="carousel" role="region" aria-roledescription="carousel" aria-label="Películas recomendadas">
+            <button class="carousel-btn prev" aria-label="Anterior">‹</button>
+
+            <div class="carousel-track">
+                <article class="slide" data-index="0">
+                    <h3>Güeros (2014)</h3>
+                    <p><strong>Director:</strong> Alonso Ruizpalacios</p>
+                    <p>La película narra la historia de tres jóvenes que recorren la Ciudad de México en busca de un cantante olvidado mientras reflexionan sobre sus vidas.</p>
+                    <p><strong>Actores:</strong> Tenoch Huerta, Sebastián Aguirre, Ilse Salas</p>
+                    <a href="https://www.imdb.com/title/tt3499048/" target="_blank">Ver en IMDb</a>
+                    <img src="https://i.pinimg.com/564x/43/ac/fb/43acfbf31476c0681e66a9b572974afa.jpg" alt="Poster Güeros">
+                </article>
+
+                <article class="slide" data-index="1">
+                    <h3>Temporada de Patos (2004)</h3>
+                    <p><strong>Director:</strong> Fernando Eimbcke</p>
+                    <p>Un día rutinario se convierte en una serie de eventos inesperados para dos adolescentes.</p>
+                    <p><strong>Actores:</strong> Daniel Miranda, Diego Cataño, Danny Perea</p>
+                    <a href="https://www.imdb.com/title/tt0407246/" target="_blank">Ver en IMDb</a>
+                    <img src="https://i.pinimg.com/564x/0a/b2/a0/0ab2a0ef0df82063cf54739e367a7c83.jpg" alt="Poster Temporada de Patos">
+                </article>
+
+                <article class="slide" data-index="2">
+                    <h3>Amores Perros (2000)</h3>
+                    <p><strong>Director:</strong> Alejandro González Iñárritu</p>
+                    <p>Tres historias se entrelazan tras un brutal accidente automovilístico en la Ciudad de México, explorando temas de amor, traición y violencia.</p>
+                    <p><strong>Actores:</strong> Gael García Bernal, Goya Toledo, Emilio Echevarría</p>
+                    <a href="https://www.imdb.com/title/tt0245712/" target="_blank">Ver en IMDb</a>
+                    <img src="https://i.pinimg.com/564x/16/16/65/16166538966cc2d128e0f7159f1ffc0e.jpg" alt="Poster Amores Perros">
+                </article>
+
+                <article class="slide" data-index="3">
+                    <h3>Chicuarotes (2019)</h3>
+                    <p><strong>Director:</strong> Gael García Bernal</p>
+                    <p>Dos jóvenes buscan salir de la pobreza pero se enredan en violencia y delincuencia.</p>
+                    <p><strong>Actores:</strong> Benny Emmanuel, Leidi Gutiérrez, Daniel Giménez Cacho</p>
+                    <a href="https://www.imdb.com/title/tt4523910/" target="_blank">Ver en IMDb</a>
+                    <img src="https://i.pinimg.com/736x/22/ca/24/22ca24db541667ae8ba42468835aebc1.jpg" alt="Poster Chicuarotes">
+                </article>
+
+                <article class="slide" data-index="4">
+                    <h3>Roma (2018)</h3>
+                    <p><strong>Director:</strong> Alfonso Cuarón</p>
+                    <p>La historia de Cleo y una familia en la colonia Roma durante los años 70.</p>
+                    <p><strong>Actores:</strong> Yalitza Aparicio, Marina de Tavira, Diego Cortina Autrey</p>
+                    <a href="https://www.imdb.com/title/tt6155172/" target="_blank">Ver en IMDb</a>
+                    <img src="https://i.pinimg.com/564x/56/34/4a/56344a053276f5e1e2e006b4aebc2564.jpg" alt="Poster Roma">
+                </article>
+            </div>
+
+            <button class="carousel-btn next" aria-label="Siguiente">›</button>
+        </div>
+
+        <div class="carousel-dots" role="tablist" aria-label="Navegación de películas">
+            <button class="dot" data-index="0" aria-label="Güeros"></button>
+            <button class="dot" data-index="1" aria-label="Temporada de Patos"></button>
+            <button class="dot" data-index="2" aria-label="Amores Perros"></button>
+            <button class="dot" data-index="3" aria-label="Chicuarotes"></button>
+            <button class="dot" data-index="4" aria-label="Roma"></button>
+        </div>
+    </section>
+
+    <!-- Sección de Cinematografía solicitada por el usuario -->
+    <section id="cinematografia" aria-label="Cinematografía en el cine mexicano">
+        <a href="#inicio" class="small-btn back-btn">Volver al inicio</a>
+        <h2>Cinematografía en el cine mexicano</h2>
+        <p>La cinematografía en el cine mexicano ha evolucionado desde sus inicios documentales a finales del siglo XIX hasta alcanzar un reconocimiento global, marcado por periodos distintivos como la Época de Oro y el Nuevo Cine Mexicano. Este arte abarca el trabajo de cámara, la iluminación, el encuadre y el movimiento para crear la atmósfera y el tono emocional de una película.</p>
+
+        <h3>Historia y Evolución</h3>
+        <p><strong>Inicios (finales del siglo XIX):</strong> El cinematógrafo llegó a México en 1896, y los primeros filmes fueron documentales cortos que a menudo difundían actividades gubernamentales.</p>
+
+        <p><strong>Época de Oro (aprox. 1936-1956):</strong> Este periodo vio la consolidación de una industria cinematográfica sólida y de gran difusión cultural, con producciones estables y un público masivo. La cinematografía de esta era, a menudo en blanco y negro, estableció una estética visual icónica que definió la identidad nacional en pantalla.</p>
+
+        <p><strong>Crisis y Nuevas Olas (1960s-1990s):</strong> La industria enfrentó crisis, pero también dio lugar a movimientos de cine independiente y la exploración de temas más controversiales, así como una mayor internacionalización de los cineastas mexicanos.</p>
+
+        <p><strong>Renacimiento y Reconocimiento Global (2000s en adelante):</strong> Una nueva era comenzó con directores como Alfonso Cuarón, Guillermo del Toro y Alejandro González Iñárritu, quienes ganaron reconocimiento mundial y múltiples premios Óscar, consolidando la influencia mexicana en la cinematografía global.</p>
+
+        <h3>Figuras Clave en la Cinematografía Mexicana</h3>
+        <p><strong>Gabriel Figueroa:</strong> Considerado el cinefotógrafo que "inventó México" visualmente, su trabajo en la Época de Oro es fundamental para entender la estética del cine nacional, con su uso distintivo del blanco y negro y composiciones que resaltaban los paisajes y rostros mexicanos.</p>
+
+        <p><strong>"Los Tres Amigos":</strong> Alfonso Cuarón, Guillermo del Toro y Alejandro González Iñárritu han llevado la cinematografía mexicana a la cima del reconocimiento internacional. Cuarón, en particular, ha ganado el Óscar a Mejor Director por películas como Gravity y Roma, donde también fungió como director de fotografía, demostrando un dominio técnico y narrativo excepcional.</p>
+
+        <p><strong>Guillermo Navarro:</strong> Colaborador frecuente de Guillermo del Toro, Navarro es otro cinefotógrafo mexicano de calidad mundial, reconocido por su trabajo visualmente rico e imaginativo en películas como El laberinto del fauno.</p>
+
+        <div class="media-grid">
+            <div class="media-slot video-placeholder"><iframe width="560" height="315" src="https://www.youtube.com/embed/KYPUnpOX5EY?si=6Be4CxTd0MfRxJy4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
+        </div>
+    </section>
+
+    <!-- Sección de Premios: contenido provisto por el usuario; incluye espacio para video -->
+    <section id="premios" aria-label="Premios del cine mexicano">
+        <h2>Premios del cine mexicano</h2>
+        <p>Los premios más importantes del cine mexicano son los <strong>Premios Ariel</strong>, entregados anualmente por la Academia Mexicana de Artes y Ciencias Cinematográficas (AMACC) para reconocer lo mejor de la producción nacional, siendo la estatuilla un símbolo de orgullo y excelencia nacional, junto con otros galardones en festivales como el de Morelia, y reconocimientos internacionales a talentos como Guillermo del Toro, Emmanuel Lubezki y Eugenio Caballero, que brillan en los Oscar.</p>
+
+        <div class="media-grid">
+            <div class="media-slot video-thumb">
+                <div class="thumb-title">Miniatura de un video relacionado</div>
+                <div class="thumb-meta"><iframe width="560" height="315" src="https://www.youtube.com/embed/milDHwplIjc?si=xFWbV4EWiFJ050nw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>/div>
+            </div>
+        </div>
+
+        <h3>Premios Ariel: El Galardón Máximo</h3>
+        <p><strong>Organizador:</strong> Academia Mexicana de Artes y Ciencias Cinematográficas (AMACC).</p>
+        <p><strong>Historia:</strong> Creados en 1946, son el equivalente mexicano a los premios de la Academia de Hollywood.</p>
+        <p><strong>Estatuilla:</strong> Diseño de Ignacio Asúnsolo, inspirada en el idealismo y la cultura latinoamericana, representa a un hombre con ansias de volar, con un águila que simboliza la identidad mexicana.</p>
+        <p><strong>Categorías:</strong> Reconocen a directores, actores, guionistas, fotógrafos y técnicos, con premios especiales como el Ariel de Oro para trayectorias destacadas (como María Rojo y Lucía Álvarez).</p>
+        <p><strong>Ejemplos recientes:</strong> En 2024, <em>Tótem</em> de Lila Avilés fue la gran triunfadora, ganando en categorías clave como Mejor Película y Mejor Dirección.</p>
+
+        <h3>Otros Festivales y Reconocimientos</h3>
+        <p><strong>Festivales Nacionales:</strong> El Festival Internacional de Cine de Morelia (FICM) es un escaparate crucial para el cine mexicano, destacando películas como <em>Tótem</em>, que obtuvo el Premio del Público y reconocimiento a la Mejor Dirección.</p>
+        <p><strong>Premios CANACINE:</strong> Reconocen la industria y a sus profesionales, con ganadores recientes como <em>Radical</em> (Mejor Película) y Eugenio Derbez (Mejor Actor) en 2023.</p>
+        <p><strong>Reconocimientos internacionales:</strong> Directores y técnicos mexicanos han triunfado en los Oscar, incluyendo a Eugenio Caballero, Emmanuel Lubezki, Alfonso Cuarón, Alejandro González Iñárritu y Guillermo del Toro.</p>
+    </section>
+
+    <section>
+                <a id="musica"></a>
+        <p>El cine mexicano tiene una gran importancia tanto a nivel nacional como internacional debido a su impacto cultural, social, y artístico. A lo largo de los años, ha sido una herramienta poderosa para retratar la realidad de México, explorar sus complejidades sociales y culturales, y dar voz a temas que, de otra forma, podrían pasar desapercibidos.</p>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/Ijgm1aFbIrM?si=Nku-WUKEXdl2aLNi" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            
+              <p>En resumen, el cine mexicano es una manifestación clave de la cultura del país, que no solo ha impactado a nivel local, sino que ha resonado en todo el mundo, logrando un reconocimiento global. Su capacidad para contar historias poderosas y conmovedoras lo ha consolidado como uno de los pilares de la cultura popular mexicana.</p>
+              <h2>Algunas canciones que se han usado en el cine mexicano</h2>
+<iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/1SL956ABnPhlaUdbv4T6mc?utm_source=generator&theme=0" width="75%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+
+<iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/2gE3iFfPwzGGdsgEhbKWJS?utm_source=generator&theme=0" width="75%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+
+<iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/0XWwzUq3edZVAujQwXMxvM?utm_source=generator&theme=0" width="75%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+
+<iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/4oR2kX5BI50GBnQGRdRRsM?utm_source=generator&theme=0" width="75%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+
+<iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/1v15LSVQiEsGm4FK8SH7rI?utm_source=generator&theme=0" width="75%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+
+    </section>
+
+    <section>
+        <h2>¿Alguna queja u opinión sobre la página?</h2>
+        <a id="opinion"></a>
+        <p>Si tienes algún comentario u opinión sobre la página, déjalo en el siguiente apartado.</p>
+
+        <!-- Formulario: ahora manejado por JavaScript y enviado a Firebase Realtime Database -->
+        <form id="quejaForm">
+            <label for="nombre">Nombre:</label><br>
+            <input type="text" id="nombre" name="nombre" required><br><br>
+
+            <label for="email">Correo Electrónico:</label><br>
+            <input type="email" id="email" name="email"><br><br>
+
+            <label for="comentario">Comentario:</label><br>
+            <textarea id="comentario" name="comentario" rows="4" required></textarea><br><br>
+
+            <button type="submit" id="submitBtn">Enviar Opinión</button>
+            <div id="formMsg" aria-live="polite" style="margin-top:.5rem;color:green"></div>
+        </form>
+
+        <!-- SCRIPT: inicializa Firebase (Realtime DB) y maneja el envío -->
+        <script type="module">
+        import { initializeApp } from "https://www.gstatic.com/firebasejs/9.21.0/firebase-app.js";
+        import { getDatabase, ref, push, set } from "https://www.gstatic.com/firebasejs/9.21.0/firebase-database.js";
+        import { getAuth, signInAnonymously, onAuthStateChanged } from "https://www.gstatic.com/firebasejs/9.21.0/firebase-auth.js";
+
+        // --- REEMPLAZA con tu configuración ---
+        // Si sólo tienes una databaseURL (Realtime Database), pega aquí esa URL.
+        const firebaseConfig = {
+            apiKey: "REPLACE_WITH_APIKEY",
+            authDomain: "REPLACE_WITH_AUTHDOMAIN",
+            databaseURL: "https://pag-web-firebase-default-rtdb.firebaseio.com/",
+            projectId: "REPLACE_WITH_PROJECTID",
+        };
+
+        const app = initializeApp(firebaseConfig);
+        const db = getDatabase(app);
+        const auth = getAuth();
+
+        // Autenticación anónima (recomendada para que las reglas requieran request.auth != null)
+        signInAnonymously(auth).catch(err => console.error('Firebase auth error:', err));
+        onAuthStateChanged(auth, user => { if (user) console.log('Anon user:', user.uid); });
+
+        const form = document.getElementById('quejaForm');
+        const submitBtn = document.getElementById('submitBtn');
+        const formMsg = document.getElementById('formMsg');
+
+        form.addEventListener('submit', async (e) => {
+            e.preventDefault();
+            submitBtn.disabled = true;
+            formMsg.style.color = 'green';
+            formMsg.textContent = '';
+
+            const nombre = document.getElementById('nombre').value.trim();
+            const email = document.getElementById('email').value.trim();
+            const comentario = document.getElementById('comentario').value.trim();
+
+            if (!nombre || !comentario) {
+                formMsg.style.color = 'crimson';
+                formMsg.textContent = 'Por favor completa los campos requeridos.';
+                submitBtn.disabled = false;
+                return;
+            }
+            if (comentario.length > 2000) {
+                formMsg.style.color = 'crimson';
+                formMsg.textContent = 'El comentario es demasiado largo (máx. 2000 caracteres).';
+                submitBtn.disabled = false;
+                return;
+            }
+
+            try {
+                const quejasRef = ref(db, 'quejas');
+                const newRef = push(quejasRef);
+                await set(newRef, {
+                    nombre,
+                    email: email || null,
+                    comentario,
+                    source: 'web',
+                    createdAt: Date.now()
+                });
+                formMsg.style.color = 'green';
+                formMsg.textContent = 'Gracias — tu mensaje fue enviado.';
+                form.reset();
+            } catch (err) {
+                console.error('Error guardando queja:', err);
+                formMsg.style.color = 'crimson';
+                formMsg.textContent = 'Ocurrió un error al enviar. Intenta de nuevo.';
+            } finally {
+                submitBtn.disabled = false;
+            }
+        });
+        </script>
+    </section>
+
+    <footer>
+        <p>Fuente de información: <a href="https://www.imdb.com/" target="_blank">IMDb</a>, <a href="https://www.filmaffinity.com/" target="_blank">FilmAffinity</a>, <a href="https://www.cinepremiere.com.mx/" target="_blank">Cine PREMIERE</a></p>
+    </footer>
+    <script src="carousel.js"></script>
+    <script src="sidebar.js"></script>
+</body>
+    <!-- Recomendaciones reemplazadas por carrusel minimalista más abajo -->

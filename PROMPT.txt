@@ -1,0 +1,188 @@
+Chat GPT  necesito ayuda en la elaboración de una página con CSS vínculandola con HTML, primero te proporcionaré el códico HTML:
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>El Cine Mexican</title>
+</head>
+<body>
+    <header>
+        <h1>El Cine Mexicano y su Impacto</h1>
+        <p>Análisis al Cine Mexicano.  / Página creada por Rodrigo Lara</p>
+    </header>
+
+    <section>
+        <h2>Algunas películas recomendadas.</h2>
+        <ul>
+            <li><strong>Güeros</strong> (2014) - <a href="https://www.imdb.com/title/tt3499048/" target="_blank">Ver en IMDb</a></li>
+            <p>Director: Alonso Ruizpalacios</p>
+<p>Sinopsis: La película narra la historia de tres jóvenes que recorren la Ciudad de México en busca de un cantante olvidado mientras reflexionan sobre sus vidas y el caos que los rodea.</p>
+<p>Actores principales: Tenoch Huerta, Sebastián Aguirre, Ilse Salas</p>
+<img src="https://i.pinimg.com/564x/43/ac/fb/43acfbf31476c0681e66a9b572974afa.jpg">
+
+
+
+            <li><strong>Temporada de Patos</strong> (2004) - <a href="https://www.imdb.com/title/tt0407246/" target="_blank">Ver en IMDb</a></li>
+<p>Director: Fernando Eimbcke</p>
+<p>Sinopsis: Un día en la vida de dos adolescentes aburridos en un departamento de Ciudad de México. Lo que empieza como un domingo rutinario, se convierte en una serie de eventos inesperados.</p>
+<p>Actores principales: Daniel Miranda, Diego Cataño, Danny Perea</p>
+<img src="https://i.pinimg.com/564x/0a/b2/a0/0ab2a0ef0df82063cf54739e367a7c83.jpg">
+
+
+
+
+
+
+
+            <li><strong>Amores Perros</strong> (2000) - <a href="https://www.imdb.com/title/tt0245712/" target="_blank">Ver en IMDb</a></li>
+<p>Director: Alejandro González Iñárritu</p>
+<p>Sinopsis: Tres historias se entrelazan tras un brutal accidente automovilístico en la Ciudad de México, explorando temas de amor, traición y violencia.</p>
+<p>Actores principales: Gael García Bernal, Goya Toledo, Emilio Echevarría</p>
+<img src="https://i.pinimg.com/564x/16/16/65/16166538966cc2d128e0f7159f1ffc0e.jpg">
+
+
+
+
+
+
+
+
+
+            <li><strong>Chicuarotes</strong> (2019) - <a href="https://www.imdb.com/title/tt4523910/" target="_blank">Ver en IMDb</a></li>
+<p>Director: Gael García Bernal</p>
+<p>Sinopsis: Dos jóvenes buscan desesperadamente salir de la pobreza y mejorar sus vidas, pero terminan enredados en un espiral de violencia y delincuencia.</p>
+<p>Actores principales: Benny Emmanuel, Leidi Gutiérrez, Daniel Giménez Cacho</p>
+<img src="https://i.pinimg.com/736x/22/ca/24/22ca24db541667ae8ba42468835aebc1.jpg">
+
+
+
+
+
+
+
+            <li><strong>Roma</strong> (2018) - <a href="https://www.imdb.com/title/tt6155172/" target="_blank">Ver en IMDb</a></li>
+<p>Director: Alfonso Cuarón</p>
+<p>Sinopsis: En la colonia Roma, de Ciudad de México,una criada india, Cleo, ayuda a una madre a criar a sus cuatro hijos durante las largas ausencias de su marido. Un retrato realista y emotivo de los conflictos domésticos y las jerarquías sociales durante la agitación política de la década de los 70.</p>
+<p>Actores principales: Yalitza Aparicio, Marina de Tavira, Diego Cortina Autrey</p>
+<img src="https://i.pinimg.com/564x/56/34/4a/56344a053276f5e1e2e006b4aebc2564.jpg">
+
+
+
+
+
+
+
+
+        </ul>
+    </section>
+
+    <section>
+        <h2>Películas Similares</h2>
+         <p>Aquí podrás encontrar películas relacionadas también del cine mexicano, que te podrían gustar.</p>
+        <ol>
+            <li>Y tu mamá también (2001)</li>
+            <p>Una película de road-trip dirigida por Alfonso Cuarón que aborda la amistad, la sexualidad y la vida en México.</p>
+
+            <li>El Infierno (2010)</li>
+            <p>Una crítica al narcotráfico en México, dirigida por Luis Estrada.</p>
+
+
+            <li>La región salvaje (2016)</li>
+            <p>Ciencia ficción y drama en un relato que mezcla el erotismo con lo extraterrestre, dirigida por Amat Escalante.</p>
+
+            <li>Los olvidados (1950)</li>
+            <p>Un clásico de Luis Buñuel, que retrata la vida de los jóvenes marginados en la Ciudad de México.</p>
+
+
+        </ol>
+    </section>
+
+    <section>
+        <h2>Tabla de Películas</h2>
+        <table border="1">
+            <tr>
+                <th>Película</th>
+                <th>Director</th>
+                <th>Año</th>
+            </tr>
+            <tr>
+                <td>Güeros</td>
+                <td>Alonso Ruizpalacios</td>
+                <td>2014</td>
+            </tr>
+            <tr>
+                <td>Temporada de Patos</td>
+                <td>Fernando Eimbcke</td>
+                <td>2004</td>
+            </tr>
+            <tr>
+                <td>Amores Perros</td>
+                <td>Alejandro González Iñárritu</td>
+                <td>2000</td>
+            </tr>
+            <tr>
+                <td>Chicuarotes</td>
+                <td>Gael García Bernal</td>
+                <td>2019</td>
+            </tr>
+              <tr>
+                <td>Roma</td>
+                <td>Alfonso Cuarón</td>
+                <td>2018</td>
+            </tr>
+        </table>
+    </section>
+
+    <section>
+  <p>El cine mexicano tiene una gran importancia tanto a nivel nacional como internacional debido a su impacto cultural, social, y artístico. A lo largo de los años, ha sido una herramienta poderosa para retratar la realidad de México, explorar sus complejidades sociales y culturales, y dar voz a temas que, de otra forma, podrían pasar desapercibidos.</p>
+         <iframe width="560" height="315" src="https://www.youtube.com/embed/Ijgm1aFbIrM?si=Nku-WUKEXdl2aLNi" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            
+              <p>En resumen, el cine mexicano es una manifestación clave de la cultura del país, que no solo ha impactado a nivel local, sino que ha resonado en todo el mundo, logrando un reconocimiento global. Su capacidad para contar historias poderosas y conmovedoras lo ha consolidado como uno de los pilares de la cultura popular mexicana.</p>
+              <h2>Algunas canciones que se han usado en el cine mexicano</h2>
+<iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/1SL956ABnPhlaUdbv4T6mc?utm_source=generator&theme=0" width="75%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+
+<iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/2gE3iFfPwzGGdsgEhbKWJS?utm_source=generator&theme=0" width="75%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+
+<iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/0XWwzUq3edZVAujQwXMxvM?utm_source=generator&theme=0" width="75%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+
+<iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/4oR2kX5BI50GBnQGRdRRsM?utm_source=generator&theme=0" width="75%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+
+<iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/1v15LSVQiEsGm4FK8SH7rI?utm_source=generator&theme=0" width="75%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+    </section>
+
+    <section>
+        <h2>¿Alguna queja u opinión sobre la página?</h2>
+        <p>Si tienes algún commentario sobre la página u opinión podrás dejarla en el siguiente apartado.</p>
+        <form action="/enviar_opinion" method="post">
+            <label for="nombre">Nombre:</label><br>
+            <input type="text" id="nombre" name="nombre"><br><br>
+            
+            <label for="email">Correo Electrónico:</label><br>
+            <input type="email" id="email" name="email"><br><br>
+            
+            <label for="pelicula">Comentario:</label><br>
+            <input type="text" id="pelicula" name="pelicula"><br><br>
+            
+            <input type="submit" value="Enviar Opinión">
+        </form>
+    </section>
+
+    <footer>
+        <p>Fuente de información: <a href="https://www.imdb.com/" target="_blank">IMDb</a>, <a href="https://www.filmaffinity.com/" target="_blank">FilmAffinity</a>, <a href="https://www.cinepremiere.com.mx/" target="_blank">Cine PREMIERE</a></p>
+    </footer>
+</body>
+</html>
+
+Como puedes ver la página habla sobre "El cine mexicano y algunas películas." para este trabajo puedes seguir las siguientes rúbricras: 
+
+-Estructura de una hoja CSS 
+-Modelo de Cajas 
+-Vinculación con HTML 
+-Propiedades y estilos
+
+Necesito que de manera profesional agarres el código que te proporcioné y crees una hoja en CSS, creándole un diseño minimalista a la página, dejándola como si fuera una página profesional. Quiero que el diseño use tonos blancos, grises y obscuros. El "font" de la página sea uno de tu preferencia pero que luzca bien y que sea de agrado visual, también ajustes las imágenes, agregues algunas cosas con las que puedas interactuar, no sé si puedas añadir un espacio extra en el cual venga la siguiente información: 
+Mi nombre "Rodrigo Lara de la Torre", la materia que es "Programación", el nombre del profesor "Luis Manuel Ruiz Cervantes", el nombre de la escuela "COBAEV 02, Miguel Barragán." y mi contacto que es "rodrigolaradelatorre@gmail.com". Al inicio no se si puedas colocar como una incio el cual diga, "El cine mexicano." junto a un botón "leer más" o algo similar que entone con la página, o añade algo que veas que pueda resultarle interesante al lector y que de ahí le genere curiosidad el seguir leyendo la página.
+
+Proporcióname el código CSS de manera separada para implementarlo al HTML.
